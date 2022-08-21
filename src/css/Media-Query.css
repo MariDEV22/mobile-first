@@ -1,6 +1,6 @@
 @media (min-width: 750px) and (max-width: 1023px) {
     body {
-        background-image: url(../../imagens/back-tablet.jpg) ;
+        background-image: url(../imgs/back-tablet.jpg) ;
     }
     #phone {
         display: none;
@@ -30,7 +30,7 @@
 
 @media (min-width: 1024px) and (max-width: 1700px) {
     body {
-        background-image: url(../../imagens/back-pc.jpg);
+        background-image: url(../imgs/back-pc.jpg);
     }
     #phone {
         display: none;
@@ -42,7 +42,7 @@
 
 @media (min-width: 1700px) {
     body {
-        background-image: url(../../imagens/back-tv.jpg);
+        background-image: url(../imgs/back-tv.jpg);
     }
     #phone {
         display: none;
