@@ -1,0 +1,53 @@
+@media (min-width: 750px) and (max-width: 1023px) {
+    body {
+        background-image: url(../../imagens/back-tablet.jpg) ;
+    }
+    #phone {
+        display: none;
+    }
+    #tablet {
+        display:grid;
+    }
+}
+
+@media print {
+    h1 {
+        text-shadow: none;
+        font-family:'Courier New', Courier, monospace ;
+    }
+    main {
+        width: 80%;
+        height: 300px;
+        border: 1px solid black;
+    }
+    #phone {
+        display: none;
+    }
+    #print {
+        display: grid;
+    }
+} 
+
+@media (min-width: 1024px) and (max-width: 1700px) {
+    body {
+        background-image: url(../../imagens/back-pc.jpg);
+    }
+    #phone {
+        display: none;
+    }
+    #pc {
+        display: grid;
+    }
+}
+
+@media (min-width: 1700px) {
+    body {
+        background-image: url(../../imagens/back-tv.jpg);
+    }
+    #phone {
+        display: none;
+    }
+    #tv {
+        display: grid;
+    }
+} 
